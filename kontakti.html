@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang = "LV">
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Kontakti</title>
+<link rel="stylesheet" href="./sux/css/bootstrap.min.css">
+<script src="jquery-1.11.3.min.js"></script>
+<script src="./sux/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css.css">
+<link rel="shortcut icon" href="favicon.ico">
+</head>
+
+<body>
+    <div class = "navbar navbar-inverse navbar-static-top">
+          <div class = "container">
+            <a href = "index.html" class = "navbar-brand navbar-left" id = "brand">Romas Impērija </a>
+            <button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+               <span class = "icon-bar"></span>
+               <span class = "icon-bar"></span>
+               <span class = "icon-bar"></span>
+            </button>
+            <div class = "collapse navbar-collapse navHeaderCollapse">
+            <ul class = "nav navbar-nav navbar-right">
+            <li class = "active" id = "raamis"><a href = "index.html">Home</a></li>
+            <li id = "raamis"><a href = "galerija.html">Gallery</a></li>
+            <li id = "raamis"><a href = "aptauja.html">Test</a></li>
+            <li id = "raamis"><a href = "kontakti.html">Contact</a></li>
+            </li>
+            </ul>
+            </div>
+          </div>
+       </div>
+
+
+
+  <div class="row">
+  <div class="col-xs-6 col-md-3">
+  <div class="container">
+ <div class = "modal-dialog">
+            <div class = "modal-content">
+            <form class = "form-horizontal">
+               <div class = "modal-header">
+                  <h4>Kontaktēties </h4>
+               </div>
+               <div class = "modal-body">
+                  
+                  <div class = "form-group">
+
+                  <label for = "contact-name" class = "col-lg-2 control-label">Vārds,uzvārds: </label>
+                    <div class = "col-lg-10">
+                    <input type = "text" class = "form-control" id = "kvaards" placeholder = "Vārds,uzvārds">
+                    </div>
+
+                  </div>
+
+                  <div class = "form-group">
+
+                  <label for = "contact-email" class = "col-lg-2 control-label">E-pasts:</label>
+                    <div class = "col-lg-10">
+                    <input type = "email" class = "form-control" id = "contact-email" placeholder = "E-pasts">
+                    </div>
+
+                  </div>
+
+                  <div class = "form-group">
+
+                  <label for = "contact-message" class = "col-lg-2 control-label">Message:</label>
+                    <div class = "col-lg-10">
+                    <textarea class = "form-control" rows = "8" placeholder = "Iecadiet ziņu..."></textarea>
+                    </div>
+
+                  </div>
+
+               </div>
+               <div class = "modal-footer">
+                  <a class = "btn btn-default" data-dismiss = "modal">Aizvērt</a> 
+                  <button class = "btn btn-primary" type = "submit">Sūtīt</button>
+               </div>
+               </form>
+            </div> 
+          </div>
+
+</body>
+
+</html>
